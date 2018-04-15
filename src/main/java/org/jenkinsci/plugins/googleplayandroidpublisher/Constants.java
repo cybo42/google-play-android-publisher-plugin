@@ -22,7 +22,7 @@ public class Constants {
     static final DecimalFormat PERCENTAGE_FORMATTER = new DecimalFormat("#.#");
 
     /** Allowed percentage values when doing a staged rollout to production. */
-    static final double[] ROLLOUT_PERCENTAGES = { 0.5, 1, 5, 10, 20, 50, 100 };
+    static final double[] ROLLOUT_PERCENTAGES = { 0.5, 1, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
     static final double DEFAULT_PERCENTAGE = 100;
 
 }
